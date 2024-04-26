@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\postgre_sql">
+      <UniqueIdentifier>{d839425a-9330-4b67-9ae7-28b118191f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\postgre_sql\object_pool">
+      <UniqueIdentifier>{8fb6136a-e019-4ad9-b18b-759f8964739e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\postgre_sql\object_pool\sql">
+      <UniqueIdentifier>{48ec8edf-212e-46e4-a5c6-e2ef55b142fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\console">
+      <UniqueIdentifier>{9b6e2a5d-9afd-4170-8bd2-7ed1dbc82bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\postgre_sql\functions">
+      <UniqueIdentifier>{edcc3b8b-a6de-46c5-b44a-be4b75121d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\postgre_sql\object_pool\sql\write">
+      <UniqueIdentifier>{2e4aa5e6-fd28-4699-9903-5e650d0054f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\postgre_sql\object_pool\sql\read">
+      <UniqueIdentifier>{51a3d586-e193-46ad-b380-2032d3d5a29d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_object.h">
+      <Filter>Файлы заголовков\postgre_sql\object_pool</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_pool.h">
+      <Filter>Файлы заголовков\postgre_sql\object_pool</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_table.h">
+      <Filter>Файлы заголовков\postgre_sql\object_pool\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="console_commands.h">
+      <Filter>Файлы заголовков\console</Filter>
+    </ClInclude>
+    <ClInclude Include="database_functions.h">
+      <Filter>Файлы заголовков\postgre_sql\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_work.h">
+      <Filter>Файлы заголовков\postgre_sql\object_pool\sql\write</Filter>
+    </ClInclude>
+    <ClInclude Include="create_table.h">
+      <Filter>Файлы заголовков\postgre_sql\object_pool\sql\write</Filter>
+    </ClInclude>
+    <ClInclude Include="insert_values.h">
+      <Filter>Файлы заголовков\postgre_sql\object_pool\sql\write</Filter>
+    </ClInclude>
+    <ClInclude Include="update_values.h">
+      <Filter>Файлы заголовков\postgre_sql\object_pool\sql\write</Filter>
+    </ClInclude>
+    <ClInclude Include="select_table.h">
+      <Filter>Файлы заголовков\postgre_sql\object_pool\sql\read</Filter>
+    </ClInclude>
+    <ClInclude Include="db.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="db_framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="db.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
